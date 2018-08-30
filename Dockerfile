@@ -3,7 +3,7 @@ ARG NVIDIA_DRIVER_VERSION=396.44
 ARG NVIDIA_PRODUCT_TYPE=tesla
 ARG NVIDIA_SITE=us.download.nvidia.com/tesla
 
-FROM bugroger/coreos-developer:${COREOS_VERSION} as BUILD
+FROM zazrivec/coreos-developer:${COREOS_VERSION} as BUILD
 LABEL maintainer "Michael Schmidt <michael.j.schmidt@gmail.com>"
 
 ARG COREOS_VERSION
