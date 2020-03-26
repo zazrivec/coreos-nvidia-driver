@@ -41,7 +41,6 @@ RUN mkdir /dest
 
 RUN /build/nvidia-installer -s -n \
   --kernel-source-path=/usr/src/linux \
-  --no-check-for-alternate-installs \
   --no-kernel-module-source \
   --no-opengl-files \
   --no-distro-scripts \
