@@ -11,6 +11,7 @@ ARG NVIDIA_DRIVER_VERSION
 ARG NVIDIA_PRODUCT_TYPE
 ARG NVIDIA_SITE
 ENV DRIVER_ARCHIVE=NVIDIA-Linux-x86_64-${NVIDIA_DRIVER_VERSION}
+ENV IGNORE_MISSING_MODULE_SYMVERS=1
 
 # We need to prepare the Container Linux Developer image. As described at 
 # https://coreos.com/os/docs/latest/kernel-modules.html we need to get source 
